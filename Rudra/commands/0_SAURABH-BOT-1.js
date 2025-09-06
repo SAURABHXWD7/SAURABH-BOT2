@@ -1,7 +1,7 @@
 const fs = global.nodemodule["fs-extra"];
 module.exports.config = {
   name: "SAURABH-BOT-1",
-  version: "1.0.1",
+  version: "1.0.0",
   hasPermssion: 0,
   credits: "SAURABH BABU",
   description: "ALL REPLY MR SAURABH BABU",
