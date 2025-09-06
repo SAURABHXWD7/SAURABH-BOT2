@@ -21,7 +21,7 @@ module.exports.run = async function ({ api, event }) {
 		const msg = `${global.config.BOTNAME}
 
 ╔═───────═🌹🖤🌹ೋ═──────═╗
-        Janu 𝔹𝕆𝕋 ℂ𝕆ℕℕ𝔼ℂ𝕋𝔼𝔻 
+        S9UR9BH-XD INXIDE 
 ╚═───────═🌹🖤🌹ೋ═──────═╝
 
 🎀 𝗚𝗥𝗢𝗨𝗣: 『 ${threadName} 』
@@ -29,13 +29,13 @@ module.exports.run = async function ({ api, event }) {
 
 ╭──────────────────────╮
 │ 💌 𝗛𝗲𝗹𝗹𝗼 𝗣𝗿𝗲𝗰𝗶𝗼𝘂𝘀 𝗠𝗲𝗺𝗯𝗲𝗿𝘀 ✨
-│ 🔰 janu 𝗕𝗼𝘁 𝗶𝘀 𝗻𝗼𝘄 𝗮𝗰𝘁𝗶𝘃𝗲 𝗵𝗲𝗿𝗲
-│ 📖 𝗧𝘆𝗽𝗲 +help 𝘁𝗼 𝘂𝗻𝗹𝗼𝗰𝗸 𝗽𝗼𝘄𝗲𝗿𝘀
+│ 🔰 ※ 𓆩⃝𝐍𝐨𝐛𝐢𝐭𝐚 𝗕𝗼𝘁 𝗶𝘀 𝗻𝗼𝘄 𝗮𝗰𝘁𝗶𝘃𝗲 𝗵𝗲𝗿𝗲
+│ 📖 𝗧𝘆𝗽𝗲 /help 𝘁𝗼 𝘂𝗻𝗹𝗼𝗰𝗸 𝗽𝗼𝘄𝗲𝗿𝘀
 ╰──────────────────────╯
 
-👑 𝗢𝗪𝗡𝗘𝗥: ایـــــکَ حسیـــــــن محتــــــــرم🖤
+👑 𝗢𝗪𝗡𝗘𝗥: 「๛⃝₍𝐒͜͡𝐚𝐮𝐫͜͡𝐚𝐛𝐡₎̚ 」࿐『𝐱͜͡⃝ᴆ』浴'
 💼 𝗣𝗢𝗪𝗘𝗥𝗘𝗗 𝗕𝗬: 🔥
-🔗 𝗙𝗔𝗖𝗘𝗕𝗢𝗢𝗞: https://www.facebook.com/Neesli.ankho.2023`;
+🔗 𝗙𝗔𝗖𝗘𝗕𝗢𝗢𝗞: https://www.facebook.com/Saurabh.Thakur.xd`;
 
 		return api.sendMessage(msg, threadID);
 	}
@@ -64,7 +64,7 @@ module.exports.run = async function ({ api, event }) {
 						memLength.sort((a, b) => a - b);
 
 						let msg = (typeof threadData.customJoin == "undefined") ?
-							"السلام عليكم\n✶⊷⊶⊷❀♡❀⊷⊶⊷✶ \n{uName}\n✶⊷⊶⊷❀♡❀⊷⊶⊷✶\n𝐖𝐞𝐋𝐋𝐂𝐎𝐌𝐄 𝐓𝐨\n✶⊷⊶⊷❀♡❀⊷⊶⊷✶\n {threadName}\n✶⊷⊶⊷❀♡❀⊷⊶⊷✶\nʏᴏᴜ'ʀᴇ ᴛʜᴇ {soThanhVien}th ᴍᴇᴍʙᴇʀ ᴏɴ ᴛʜɪs ɢʀᴏᴜᴘ ᴘʟᴇᴀsᴇ ᴇɴᴊᴏʏ\n✶⊷⊶⊷❀♡❀⊷⊶⊷✶\n*★᭄𝗖𝗿𝗲𝗱𝗶𝘁𝘀  ཫ༄𒁍☆||  ⋆⃝❥͜͡ایـــــکَ حسیـــــــن محتــــــــرم❥||ㅎ"
+							"السلام عليكم\n✶⊷⊶⊷❀♡❀⊷⊶⊷✶ \n{uName}\n✶⊷⊶⊷❀♡❀⊷⊶⊷✶\n𝐖𝐞𝐋𝐋𝐂𝐎𝐌𝐄 𝐓𝐨\n✶⊷⊶⊷❀♡❀⊷⊶⊷✶\n {threadName}\n✶⊷⊶⊷❀♡❀⊷⊶⊷✶\nʏᴏᴜ'ʀᴇ ᴛʜᴇ {soThanhVien}th ᴍᴇᴍʙᴇʀ ᴏɴ ᴛʜɪs ɢʀᴏᴜᴘ ᴘʟᴇᴀsᴇ ᴇɴᴊᴏʏ\n✶⊷⊶⊷❀♡❀⊷⊶⊷✶\n*★᭄𝗖𝗿𝗲𝗱𝗶𝘁𝘀  「๛⃝₍𝐒͜͡𝐚𝐮𝐫͜͡𝐚𝐛𝐡₎̚ 」࿐『𝐱͜͡⃝ᴆ』浴'"
 							: threadData.customJoin;
 
 						msg = msg
